@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  width: 1280px;
+  margin: auto;
   line-height: 28px;
   height: 100vh;
   background: #2F2E41;
@@ -10,9 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 71px;
-  margin-left: 99px;
-  margin-right: 98px;
+  margin: 71px 99px 98px; 
  }
 
  
@@ -24,13 +23,13 @@ body {
   }
   
   main {
-   display: flex;
-   justify-content: space-between;
-    text-align: center;
-    margin: 202 89  99;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin: 202px 99px 89px;
   }
 
-  h1, ul, footer  {
+  h1, ul, footer, a  {
   font-family: 'JetBrains Mono', monospace;
   color: #FFFFFF ;
   
@@ -38,6 +37,7 @@ body {
 
  p {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
   font-weight: 400px;
   font-size: 16px;
   line-height: 28px;
@@ -46,9 +46,27 @@ body {
 
  }
 
+ a {
+  text-decoration: none;
+ }
+
  span {
  color: #00BFA6;
  }
+ 
+ #line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #00BFA6;
+ }
+
+ #cadeado {
+  position: fixed;
+  margin: 23px;
+  bottom: 0px;
+  left: 0px;
+ } 
 
  footer {
   text-align: center;
@@ -57,14 +75,4 @@ body {
   font-size: 14px;
   line-height: 28px;
   
- }
-
- .line {
-  
-  
-  border: 1px solid #00BFA6;
- }
-
- .cadeado {
-  position: fixed;
  }
