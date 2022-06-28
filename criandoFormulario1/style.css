@@ -1,66 +1,87 @@
 
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+#pheader {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
 body {
   background: #EFEFEF;
+  height: 1084px;
 }
 
-body::before {
+body::before{
   content: '';
-  width: 100%;
+  width: 1440px;
   height: 436px;
+  background: #535971;
   position: absolute;
-  top: -2px;
+  top: 0;
   left: 0;
   z-index: -1;
-  background: #535971;
-  
 }
 
-.page {
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-inline: 64px;
+}
+
+fieldset legend {
+  border-bottom: 1px solid #E6E6F0;
+  width: 622px;
+  padding-bottom: 16px;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971 ;
+  margin-bottom: 32px;
+  padding-top: 56px;
+}
+
+.input-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958 ;
+}
+
+#m {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#r {
+  display: flex;
+  gap: 22px;
+}
+
+#page {
   width: 750px;
+  height: 1084px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
   margin: auto;
+  padding-bottom: 72px;
 }
 
 header {
-  width: 417px;
-  
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 140px;
 }
-
-header h1 {
-  font-family: 'Staatliches', cursive;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  color: #FFFFFF;
-
-  
-  }
-  
-  header p {
-  position: absolute;
-  width: 417px;
-  
-  font-family: 'Poppins';
-  
-  
-  font-size: 20px;
-  line-height: 30px;
-  
-  color: #FFFFFF;
-  }
-
-  form {
-    margin-top: 320px;
-    background: #FFFFFF;
-    border-radius: 8px;
-    min-height: 300px;
-  
-  }
-  
-  fieldset {
-    border: none;
-    font-family: 'Staatliches', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    color: #535971;
-  }
