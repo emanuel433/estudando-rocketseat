@@ -13,6 +13,7 @@ h1 {
   line-height: 30px;
   font-weight: 400;
   color: #FFFFFF;
+  margin-bottom: 58px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 
 body::before{
   content: '';
-  width: 1440px;
+  width: 100%;
   height: 436px;
   background: #535971;
   position: absolute;
@@ -35,7 +36,7 @@ fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0px;
   padding-inline: 64px;
 }
 
@@ -84,4 +85,106 @@ header {
   width: 750px;
   margin: 0 auto;
   padding-top: 140px;
+}
+
+#name {
+  display: block;
+  width: 300px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#last-name {
+  display: block;
+  width: 300px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#email {
+  width: 622px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#password {
+  display: block;
+  width: 622px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#name2 {
+  width: 622px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.line-3 {
+  display: flex;
+  width: 622px;
+}
+
+#event-date {
+  width: 300px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#event-begin {
+  width: 140px;
+  height: 56px;
+  margin-left: 32px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#event-end {
+  width: 140px;
+  height: 56px;
+  margin-left: 10px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+P {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #535971;
+  margin-bottom: 11px;
+}
+
+footer {
+  background: #535971;
+  display: flex;
+  flex-direction: column;
+  
+  width: 750px;
+  height: 160px;
+  border-radius: 0px 0px 20px 20px;
+  justify-content: center;
+
+}
+
+.button {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  background: #FF5374;
+  border: none;
+  border-radius: 20px;
+
+  width: 608px;
+  height: 55.65px;
+  color: #FFFFFF;
+  margin: auto;
+
 }
