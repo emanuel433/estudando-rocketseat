@@ -1,0 +1,54 @@
+body {
+  background: #ED6B5B;
+  text-align: center;
+}
+
+main {
+  width: 592px;
+  margin:  auto ;
+}
+
+main img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  text-align: center;
+  color: #165954;
+  margin: auto;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #165954;
+}
+
+span, a {
+  color: #F9AC66;
+}
+
+a {
+  text-decoration: none;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+
