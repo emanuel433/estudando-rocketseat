@@ -1,2 +1,4 @@
-# estudando-rocketseat
-Tentando criar um repositório para estudar
+<h1>Exercícios práticos! Envio e aprendizado próprio.</h1>
+        <p>
+          Praticando comandos git também.
+        </p>
